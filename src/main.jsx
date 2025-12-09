@@ -6,7 +6,6 @@ import { QRCode } from './QRCode'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
     <QRCode/>
   </StrictMode>,
 )

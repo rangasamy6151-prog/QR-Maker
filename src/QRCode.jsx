@@ -40,7 +40,7 @@ export const QRCode = () => {
         <div className="app-container">
             <h1>QR CODE GENERATOR</h1>
             {Loading && <p>Please wait...</p>}
-            {img && <img className="qr-image" src={img} height={setQrSize} width={setQrSize} />}
+            {img && <img className="qr-image" src={img} height={qrSize} width={qrSize} alt="Generated QR code" />}
             <div>
                 <label className="input-label" htmlFor="dataInput">
                     Data for QR Code :
